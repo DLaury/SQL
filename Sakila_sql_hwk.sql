@@ -75,7 +75,7 @@ SELECT staff.first_name AS 'First Name',
                SUM(payment.amount) AS 'Total Exchanges'
 FROM staff
 JOIN payment ON staff.staff_id = payment.staff_id
-GROUP BY staff.staff_id;
+GROUP BY 1, 2;
 
 -- 6c. List each film and number of actors on the film using film_actor and film
 SELECT film.title AS 'Title' , COUNT(film_actor.actor_id) AS '# of Actors'
