@@ -1,2 +1,31 @@
 # SQL
-This is homework assignment 7 based on SQL using MySQL Workbench
+These are examples of SQL queries within MySQLWorkbench using the Sakila database. The queries are:
+- Display the first and last names of all actors from the table actor
+- Display the first and last name of each actor in a single column in upper case letters with the column name Actor Name.
+- Display ID number, first name, and last name of an actor with the first name, "Joe".
+- Display all actors whose last name contain the letters GEN.
+- Display all actors whose last names contain the letters LI ordering the rows by last name and then first name
+- Display the country_id and country columns of the following countries: Afghanistan, Bangladesh, and China
+- Create a column in the table actor named description and use the data type BLOB
+- Delete the description column.
+- List the last names of actors, as well as how many actors have that last name.
+- List last names of actors and the number of actors who have that last name, but only for names that are shared by at least two actors
+- Change GROUCHO WILLIAMS TO HARPO WILLIAMS.
+- Change the first name of the actor is currently HARPO to GROUCHO.
+- Show schema of the address table
+- Use JOIN to display the first and last names, and addresses of each staff member.
+- Use JOIN to display the total amount rung up by each staff member in August of 2005.
+- List each film and number of actors on the film.
+- Display number of copies of Hunchback Impossible are in inventory.
+- List total paid by customer (listed alphebetically) using payment and customer.
+- Display english films whose titles start with k or q.
+- Display all actors who appear in Alone Trip.
+- Display all Canadian customers names and emails.
+- Display all films categorized as family.
+- Display most frequently rented movies in descending order.
+- Display income by store.
+- Display Store ID, City and Country of each store.
+- Display top 5 genres by revenue in descending order.
+- Create a view of the previous query
+- Display view
+- Delete view
